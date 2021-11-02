@@ -100,4 +100,5 @@ body {
 
 section.iphone {
     display: flex;
+    width: 100%;
 }
