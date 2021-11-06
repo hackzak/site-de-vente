@@ -31,13 +31,13 @@
     }
 
     75% {
-        border-top-color: blue;
-        border-bottom-color: blue;
+        border-top-color: springgreen;
+        border-bottom-color: springgreen;
     }
 
     100% {
         transform: rotate(720deg) scale(1);
-        border-top-color: springgreen;
-        border-bottom-color: springgreen;
+        border-top-color: blue;
+        border-bottom-color: blue;
     }
 }
