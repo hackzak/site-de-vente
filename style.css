@@ -1,0 +1,43 @@
+.loader {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 16px solid rgb(224, 224, 224);
+    width: 120px;
+    height: 120px;
+    border-top-color: #1abc9c;
+    border-bottom-color: #1abc9c;
+    border-radius: 50%;
+    animation: chargeur 3s linear infinite;
+}
+
+@keyframes chargeur {
+    0% {
+        transform: rotate(0deg) scale(1);
+        border-top-color: red;
+        border-bottom-color: red;
+    }
+
+    25% {
+        border-top-color: blue;
+        border-bottom-color: blue;
+    }
+
+    
+    50% {
+        transform: rotate(350deg) scale(1);
+        border-top-color: springgreen;
+        border-bottom-color: springgreen;
+    }
+
+    75% {
+        border-top-color: blue;
+        border-bottom-color: blue;
+    }
+
+    100% {
+        transform: rotate(720deg) scale(1);
+        border-top-color: springgreen;
+        border-bottom-color: springgreen;
+    }
+}
