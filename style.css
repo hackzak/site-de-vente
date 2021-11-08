@@ -1,106 +1,54 @@
-.containeur {
+body {
+    margin: 0;
+    background: #fff; 
+}
+
+#flexContaineur {
+    width: 100%; 
+    height: 100vh; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.threeCards {
+    width: 300px;
+    height: 500px;
+    margin: 30px;
+    position: relative;
+    transition: 0.2s ease-in;
+    box-shadow: 0px 10px 30px black;
+}
+
+.header {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    background: rgba(137, 196,244,0.5);
+}
+
+.header h2 {
+    margin: 0;
+    top: 130px;
     text-align: center;
-    transition: 0.5s all ease-in;
 }
 
-.containeur:hover {
-    transform: scale(1.1);
-    transition: 0.5s all ease-in;
-}
-
-.h3 {
-    font-size:  35px;
-    margin: auto;
-    background: rgb(180, 180, 180);
-    padding: 50px;
-    margin: 450px;
+#spanPris {
+    font-size: 40px;
     position: relative;
-    top: -440px;
+    top: 145px;
 }
 
-.h2 {
-    font-size: 45px;
-    margin: auto;
-    background: rgba(100, 100, 100, 0.781);
-    padding: 20px;
-    margin: 450px;
-    position: relative;
-    top: -890px;
+.price {
+    height: 120px;
+    width: 300px;
+    background: rgba(137, 196,244,0.6);
+    clip-path: polygon(0 0 , 100% 0 , 100% 75% , 0 100%);
+    position: absolute;
+    top: 0;
 }
 
-.details {
-    position: relative;
-    top: -1300px;
-    font-size: 30px;
+.price h1 {
+    margin: 0;
     text-align: center;
-    background: rgba(231, 231, 231, 0.781);
-    padding: 12px;
-    margin: 450px;
-}
-
-
-.detail {
-    position: relative;
-    top: -1300px;
-    font-size: 30px;
-    text-align: center;
-    background: rgba(231, 231, 231, 0.781);
-    padding: 12px;
-    margin: 450px;
-    position: relative;
-    top: -1634px;
     
-}
-
-
-.etail {
-    position: relative;
-    top: -1300px;
-    font-size: 30px;
-    text-align: center;
-    background: rgba(231, 231, 231, 0.781);
-    padding: 12px;
-    margin: 450px;
-    position: relative;
-    top: -2200px;
-}
-
-
-.tail {
-    position: relative;
-    top: -1300px;
-    font-size: 30px;
-    text-align: center;
-    background: rgba(231, 231, 231, 0.781);
-    padding: 12px;
-    margin: 450px;
-    position: relative;
-    top: -2766px;
-}
-
-.nul {
-    position: relative;
-    top: -40px;
-}
-
-.detail:hover {
-    background: rgb(139, 139, 139);
-    transition: 0.3s;
-}
-
-.etail:hover {
-    background: rgb(139, 139, 139);
-    transition: 0.3s;
-}
-
-
-.details:hover {
-    background: rgb(139, 139, 139);
-    transition: 0.3s;
-}
-
-
-.tail:hover {
-    background: rgb(139, 139, 139);
-    transition: 0.3s;
 }
