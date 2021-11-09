@@ -2,6 +2,10 @@ body {
     margin: 0;
     background: #fff; 
     display: flex;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-image: url(https://images.pexels.com/photos/6771900/pexels-photo-6771900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+
 }
 
 #flexContaineur {
@@ -32,7 +36,7 @@ body {
     height: 200px;
     width: 300px;
     position: relative;
-    background: rgba(137, 196, 244, 0.521);
+    background: rgba(229, 255, 0, 0.699);
 }
 
 .header h2 {
@@ -50,7 +54,7 @@ body {
 .price {
     height: 120px;
     width: 300px;
-    background: rgba(137, 196,244,0.6);
+    background: rgba(229, 255, 0);
     clip-path: polygon(0 0 , 100% 0 , 100% 75% , 0 100%);
     position: absolute;
     top: 0;
@@ -74,7 +78,7 @@ body {
 }
 
 .details:hover {
-    background: rgba(181,208,230,0.1);
+    background: rgba(229, 255, 0);
 }
 
 #btn a {
@@ -88,16 +92,15 @@ body {
     position: relative;
     top: 10px;
     border-radius: 30px;
-    border: 1px solid #22a7f0;
-    color: rgb(137, 196,244);
+    border: 1px solid rgba(229, 255, 0);  
+    color: rgba(229, 255, 0);
     position: relative;
-    top: 145px;
+    top: 155px;
     transition: 0.7s;
-    background: white;
 }
 
 #btn a:hover {
-    background: rgb(34, 167, 240);
+    background: rgba(229, 255, 0);
     color: white;
     transition: 0.7s;
 }
