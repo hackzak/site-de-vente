@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #222;
+    overflow: hidden;
+}
+
+rect {
+    fill: transparent;
+    pointer-events: all;
+}
+
+svg {
+     stroke-width: 3.5px;
+     
+}
