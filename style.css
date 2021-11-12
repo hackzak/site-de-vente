@@ -106,13 +106,7 @@ body {
 
 @media screen and (max-width: 1200px) {
 
-
-    #flexContaineur {
-        width: 100%; 
-        height: 2000px; 
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    body {
         flex-direction: column;
     }
 
