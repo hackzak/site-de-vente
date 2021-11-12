@@ -4,4 +4,4 @@ Je présente mon site web en html, css et javascript jaimeraitque vous regardé 
 
 le site c"est mois qui la fais mais j'ais regarder un tuto, la chène s"appelle Le Designer du Web sa chaine est tros bien jais regarder pour l'ecran d'acceuille et pour l'ecran pour acheter les telephone.
 
-<a href="https://github.com/hackzak">Cliquer ici pour voire mon site</a>
+<a href="https://hackzak.github.io/site-de-vente/">Cliquer ici pour voire mon site</a>
