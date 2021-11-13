@@ -6,6 +6,6 @@ le site c"est mois qui la fais mais j'ais regarder un tuto, la chène s"appelle 
 
 ## les tuto 
 
-les tuto que regargé <a href="https://www.youtube.com/channel/UCIHVyohXw6j2T-83-uLngEg">graven</a> et celuis de <a href="https://www.youtube.com/channel/UCMFbNXUkjSUJ6WC20tGTzJg">Le Designeur Du Web</a>
+les tuto que j'ais regargé est celuis de <a href="https://www.youtube.com/channel/UCIHVyohXw6j2T-83-uLngEg">graven</a> et celuis de <a href="https://www.youtube.com/channel/UCMFbNXUkjSUJ6WC20tGTzJg">Le Designeur Du Web</a>
 
 <a href="https://hackzak.github.io/site-de-vente/">Cliquer ici pour voire mon site</a>
