@@ -1,112 +1,180 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    background: #fff; 
-    background-repeat: no-repeat;
-    background-size: 100%;
+    padding: 0;
+    height: 100vh;
     display: flex;
-    background-image: url(ttps://images.pexels.com/photos/6771900/pexels-photo-6771900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-}
-
-#flexContaineur {
-    width: 100%; 
-    height: 100vh; 
-    display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    background: rgb(218, 218, 218)
 }
 
-.threeCards {
-    width: 300px;
-    height: 500px;
-    margin: 30px;
+.cartes {
+    background: #f1f1f1;
+    width: 250px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    margin: 0 20px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+.partImg {
+    height: 60%;
+    width: 100%;
+    background: url(lo.jpg);
+    background-position: left;
     position: relative;
-    transition: 0.2s ease-in;
-    box-shadow: 0px 10px 30px black;
-    transition: all 0.3s;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
-.threeCards:hover {
-    transform: scale(1.1);
-}
-
-
-.header {
-    height: 200px;
-    width: 300px;
-    position: relative;
-    background: rgba(0, 255, 242,0.8);
-}
-
-.header h2 {
-    margin: 0;
-    top: 130px;
-    text-align: center;
-}
-
-#spanPris {
-    font-size: 40px;
-    position: relative;
-    top: 130px;
-}
-
-.price {
-    height: 120px;
-    width: 300px;
-    background: rgba(0, 255, 242);
-    clip-path: polygon(0 0 , 100% 0 , 100% 75% , 0 100%);
+.filtreBlue {
     position: absolute;
     top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: background 0.4s ease;
 }
 
-.price h1 {
-    margin: 0;
-    text-align: center;
-    font-size: 30px;
-    position: relative;
-    top: 40px;
+.filtreBlue:hover {
+    cursor: pointer;
+    background: rgba(118, 176, 194, 0.5)
 }
 
-.details {
-    position: relative;
-    top: 151px;
-    background: white;
-    height: 60px;
-    text-align: center;
-    transition: all 0.2s ease-in;
-}
-
-.details:hover {
-    background: rgba(181, 208, 230, 0.418);
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-}
-
-#btn a {
-    text-decoration: none;
+.btnRreveal {
+    width: 90px;
     height: 50px;
-    width: 120px;
-    display: block;
-    margin: auto;
-    text-align: center;
-    line-height: 50px;
-    position: relative;
-    top: 10px;
-    border-radius: 30px;
-    border: 1px solid rgb(0, 255, 242);  
-    color: rgba(0, 255, 242);
-    position: relative;
-    top: 155px;
-    transition: 0.7s;
+    background: #f1f1f1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(118, 176, 194);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.2s ease;
 }
 
-#btn a:hover {
-    background: rgba(0, 255, 242);
-    color: white;
-    transition: 0.7s;
+.filtreBlue:hover .btnRreveal {
+    opacity: 1;
+    transition: opacity 0.2s ease;
 }
+
+.titrePris {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+}
+
+.titreCarte {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 80%;
+    font-size: 25px;
+    position: relative;
+    top: -10px;
+}
+
+.titreCarte::after {
+    content: "le telephone de lux"; 
+    font-weight: 100;
+    font-size: 14px;
+    position: absolute;
+    top: 45px;
+}
+
+.pris {
+    width: 20%;
+    font-size: 18px;
+}
+
+.taills {
+    padding: 3px 10px;
+    width: 100%;
+}
+
+.taillsTxt {
+    font-weight: bold;
+    position: relative;
+    font-size: 18px;
+}
+
+.color {
+    padding-bottom: 5px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.contRond {
+    width: 100%;    
+    display: flex;
+}
+
+.rond {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.sousTitreC {
+    position: relative;
+    top: -5px;
+    margin: 2px;
+}
+
+.color {
+    margin: 7px;
+}
+
+.color::after {
+    content: "les couleur du telephone";
+}
+
+.rond:nth-child(1) {
+    background: #000;
+
+}
+
+.rond:nth-child(2) {
+    background: #000;
+    
+}
+
+.rond:nth-child(3) {
+    background: #000;
+    
+}
+
+.rond:nth-child(4) {
+    background: #000;
+    
+}
+
+.rond:nth-child(5) {
+    background: #000;
+    
+}
+
+
+
+
+
 
 @media screen and (max-width: 1200px) {
 
-    body {
+    body{
         flex-direction: column;
     }
 
