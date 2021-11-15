@@ -140,7 +140,7 @@ body {
 
 .color::after {
     content: "les couleur du telephone";
-    font-size: 3vh;
+    font-size: 2vh;
 }
 
 .rond:nth-child(1) {
