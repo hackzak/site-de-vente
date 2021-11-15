@@ -25,8 +25,8 @@ body {
 .partImg {
     height: 60%;
     width: 100%;
-    background: url(lo.jpg);
-    background-position: left;
+    background: url(le.jpg);
+    background-position: top;
     position: relative;
     border-bottom: 3px solid rgba(0, 0, 0, 0.1);
     border-top-right-radius: 5px;
@@ -148,22 +148,22 @@ body {
 }
 
 .rond:nth-child(2) {
-    background: #000;
+    background: rgb(255, 0, 0);
     
 }
 
 .rond:nth-child(3) {
-    background: #000;
+    background: rgb(0, 17, 255);
     
 }
 
 .rond:nth-child(4) {
-    background: #000;
+    background: rgb(170, 170, 170);
     
 }
 
 .rond:nth-child(5) {
-    background: #000;
+    background: rgb(255, 0, 170);
     
 }
 
