@@ -4,10 +4,11 @@
 }
 
 body {
-    font-size: 17px;
+    font-size: 50px;
 }
 
 #showcase {
+    width: 100%;
     background-image: url(https://images.pexels.com/photos/193004/pexels-photo-193004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     height: 100vh;
     background-position: center;
