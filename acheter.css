@@ -1,0 +1,26 @@
+.containeur {
+    background: rgb(0, 0, 0);
+    margin: 0;
+    padding: 60px;
+    position: absolute;
+}
+
+.contClass {
+    font-size: 155px;
+    padding: 115px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gill Sans", sans-serif;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-position: top;
+    position: relative;
+}
+
+.contClass {
+    background-image: url(li.jpg);
+}
+
+body {
+    background:rgb(255, 255, 255);
+}
